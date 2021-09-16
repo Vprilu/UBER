@@ -1,0 +1,185 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+header{
+position: relative;
+}
+nav{
+position: fixed;
+width: 100%;
+min-height: 53px;
+background: #212121;
+z-index: 10;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 13px 70px;
+	margin: 0;
+	list-style-type: none ;
+}
+.menu .menu__item {
+	border-right: 2px dotted black;
+	padding-right: 40px;
+}
+.menu .menu__item:last-child{
+	border-right: none;
+}
+.menu .menu__link {
+font-weight: 300;
+font-size: 15px;
+color: #FFFFFF;
+text-decoration:none;
+opacity: 0.8;
+}
+.subheader {
+	margin-top: 53px;
+	position: absolute;
+	width: 100%;
+	min-height: 84px;
+	background-color: rgb(0,0,0,.6);
+}
+
+.subheader .subheader__logo {
+	display: block;
+	min-width: 100%;
+	margin-top: 16px;
+}
+.subheader .subheader__oficial {
+font-style: normal;
+font-weight: 200;
+font-size: 13px;
+color: #FFFFFF;
+margin-top: 6px;
+opacity: 0.6;
+}
+
+.subheader .subheader__call{
+margin-top: 18px;
+font-weight: 300;
+font-size: 12px;
+color: #FFFFFF;
+text-align: right;
+}
+
+.subheader .subheader__phone{
+display: block;
+font-weight: normal;
+font-size: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+text-align: right;
+}
+
+.subheader .subheader__btn, .promo .promo__btn{
+margin-top: 18px;
+width: 172px;
+height: 46px;
+background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+border: none; 
+border-radius: 4px;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+color: #FFFFFF;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo{
+min-height: 800px;
+background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+padding: 150px 0 135px 0;
+}
+.promo .promo__header {
+margin-top: 60px;
+font-weight: 900;
+font-size: 60px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+}
+.promo .promo__subheader {
+font-weight: bold;
+font-size: 36px;
+color: #FFFFFF;
+margin-top: 22px;
+text-align: center;
+}
+.promo .promo__descr {
+margin-top: 20px;
+font-weight: normal;
+font-size: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.promo .promo__btn{
+display: block;
+margin: 118px auto 0 auto;
+width: 259px;
+height: 63px;
+
+font-weight: normal;
+font-size: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons .reasons__pluses{
+margin: 18px auto 0 auto;
+font-weight: 400;
+font-size: 11px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: black;
+width: 115px;
+height: 27px;
+padding: 6px 13px;
+}
+.reasons .reasons__header{
+	font-weight: bold;
+	font-size: 38px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #222222;
+	margin-top: 32px;
+}
+.reasons .reasons__block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+	}
+
+.reasons .reasons__round{
+min-width: 116px;
+height: 116px;
+background: #1EACC7;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 26px;
+}
+
+.reasons .reasons__block .reasons__descr {
+	min-width: 343px;
+	max-width: 372px;
+}
+
+.reasons .reasons__block .reasons__descr .reasons__subheader{
+	line-height: 21px;
+	color: #1eacc7;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.reasons .reasons__block .reasons__descr .reasons__text {
+	color: #202020;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+}
